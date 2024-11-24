@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: red;
+    border-style: solid; */
+}
+body {
+    background-color: #212025;
+    color: #FFFFFF;
+    font-family: "arial";
+    font-size: 16px;
+    cursor: default;
+}
+header {
+    height: 355px;
+    background-image: url("images/background.svg");
+    background-attachment: relative;
+    background-position: top; 
+    background-size: 100%;
+    background-color: #212025;
+}
+h1 {
+    display: inline-block;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    position: relative;
+    top: 110px;
+    left: 250px;
+}
+header h2 {
+    display: inline-block;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    top: 160px;
+    left: -180px;
+}
+.menu {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    list-style-type: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.menu a {
+    display: inline-block;
+    border-right: 1px solid #FFFFFF;
+    padding: 10px 47px 10px 53px;
+}
+.menu a:last-child {
+    border-right: none;
+}
+.menu a:hover {
+    background-color: #FD5A1B;
+}
+main {
+    text-align: justify;
+    padding: 40px 64px 0px 64px;
+}
+section {
+    padding-bottom: 48px;
+}
+main h2 {
+    padding-bottom: 40px;
+}
+h4 {
+    text-decoration-line: underline;
+}
+.formation, .competences, .interets {
+    padding-bottom: 32px;
+}
+h2 + .experience {
+    padding-top: 0;
+}
+.experience {
+    padding-top: 32px;
+}
+h6 {
+    padding-bottom: 24px;
+}
+p + .formation {
+    padding-top: 32px;
+}
+li + .competences {
+    padding-top: 32px;
+}
+p + .interets {
+    padding-top: 32px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.columnsFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.leftside {
+    flex: 3;
+    margin-right: 56px;
+}
+.rightside {
+    flex: 1;
+}
+.contact {
+    text-align: center;
+}
+button {
+    background-color: #FD5A1B;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+.flex {
+    display: flex;
+}
+.voyage {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+.voyage > .interets {
+    display: inline-block;
+    width: 100%;
+}
+.voyage1 {
+    flex: 1;
+    margin-right: 32px;
+}
+.sport {
+    flex: 1;
+    margin-right: 40px;
+}
+.photo, .voyage2 {
+    flex: 1;
+}
+footer {
+    background-color: #FD5A1B;
+    color: #FFFFFF;
+    padding: 24px 64px 16px 64px;
+    font-size: small;
+}
+.footer {
+    display: grid;
+    grid-template-rows: 20px 20px 20px 20px;
+    grid-auto-columns: 37.5% 37.5% 25%;
+    grid-auto-flow: column;
+}
+.fa {
+    padding: 10px;
+}
